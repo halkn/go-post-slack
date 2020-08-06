@@ -1,5 +1,5 @@
 lint:
-	@golangci-lint run -v --enable-all
+	@staticcheck ./...
 test:
 	@go test ./... -v
 build:
